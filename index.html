@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="{% static 'nft/styles.css' %}">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>9
+    <div class="main">
+        <div class="img-container">
+         <img class="e-img"  src="{% static 'nft/images/image-equilibrium.jpg' %}" alt = "equilibrium"> 
+         <svg width="260px" height="260px">
+                <rect class="hover-img" width="260px" height="260px" fill="rgba(0, 255, 247,0)"></rect>
+                </svg>
+            <img class="eye-icon" src="{% static 'nft/images/icon-view.svg'%}" alt="view-icon">
+         </div>   
+        <div class="flex-item h1">
+          Equilibrium #3429
+        </div>
+        <div class="flex-item detail">
+          Our Equilibrium collection promotes balance and calm.
+        </div>
+        <div class="flex-item costandtime">
+            <span class="cost">
+            <img src = "{% static 'nft/images/icon-ethereum.svg' %}" alt="costicon">
+          0.041 ETH
+            </span>
+            <span class="time">
+             <img src = "{% static 'nft/images/icon-clock.svg' %}"alt="clock">
+            3 days left
+           </span>
+        </div>
+        <div class="flex-item line">
+            <hr size="1px" color="hsl(215,32%,27%)">
+        </div>
+        
+        <div class="flex-item jules">
+         <span class="avatar">
+            <img src="{% static 'nft/images/image-avatar.png' %}" alt="avatar">
+        </span>
+        <span class="creator">
+          <span>Creation of</span><span class="creator-text" >Jules Wyvern</span>
+        </span>
+        </div>
+    </div>
+</body>
+</html>
