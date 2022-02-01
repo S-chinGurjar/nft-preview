@@ -90,6 +90,9 @@ body{
     font-weight:300;
 }
 
+hr{
+    size:1px; 
+    color:hsl(215,32%,27%);
 .costandtime{
     display:flex;
     justify-content:space-between;
