@@ -79,6 +79,7 @@ main{
 .heading{
     color:white;
     font-weight:600;
+    font-size:0.55em;
 }
 
 .heading:hover{
