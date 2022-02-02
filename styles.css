@@ -31,10 +31,10 @@ body{
     justify-content:space-around;
     align-items:center;
     height:80%;
-    margin:auto;
     position:absolute;
-    left:0;
-    right:0;
+    left:50%;
+    top:50%;
+    transform:translate(-50% , -50% );
 }
 
 .img-container{
@@ -112,6 +112,9 @@ body{
     margin-right:0.5rem;
 }
 
+.line {
+    color:hsl(215,32%,27%);
+}
 .jules{
     margin-bottom:1.2rem;
     display:flex;
@@ -142,5 +145,6 @@ body{
 @media screen and (min-width:480px){
     .main{
         width:25%;
+        height:65%;
     }
 }
